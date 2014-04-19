@@ -1,11 +1,10 @@
 {
   "name": "shouge",
-  "version": "0.3.2",
-  "devDependencies": {
-    "angular": "~1.2",
-    "angular-mocks": "~1.2",
-    "angular-bootstrap": "~0.10.0",
-    "angular-ui-router": "~0.2"
-  },
-  "dependencies": {}
+  "version": "0.0.1",
+  "devDependencies": {},
+  "dependencies": {
+    "angular": "~1.2.16",
+    "angular-mocks": "~1.2.16",
+    "angular-ui-router": "~0.2.10"
+  }
 }

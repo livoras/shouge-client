@@ -1,7 +1,6 @@
-angular.module( 'ngBoilerplate.about', [
-  'ui.router',
-  'placeholders',
-  'ui.bootstrap'
+angular.module( 'shougeApp.about', [
+  'templates-app',
+  'ui.router'
 ])
 
 .config(function config( $stateProvider ) {

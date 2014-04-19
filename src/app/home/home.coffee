@@ -1,4 +1,7 @@
-home = angular.module('shouge.home', ['ui.router'])
+home = angular.module('shougeApp.home', [
+  'templates-app',
+  'ui.router'
+])
 
 .config ($stateProvider)->
   $stateProvider.state 'home',
@@ -9,4 +12,6 @@ home = angular.module('shouge.home', ['ui.router'])
         templateUrl: 'home/home.tpl.html'
     data:{pageTitle: 'Home'}
 
-home.controller 'HomeCtrl', ($scope)->
+home.controller 'HomeCtrl', ($scope, $log)->
+  $log.log 'fuck'
+
