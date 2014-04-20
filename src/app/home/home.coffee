@@ -12,6 +12,4 @@ home = angular.module('shougeApp.home', [
         templateUrl: 'home/home.tpl.html'
     data:{pageTitle: 'Home'}
 
-home.controller 'HomeCtrl', ($scope, $log)->
-  $log.log 'fuck'
-
+home.controller 'HomeCtrl', ($scope)->
